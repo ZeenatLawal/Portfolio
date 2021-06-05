@@ -1,0 +1,13 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-image: url('images/headerbg.png');
+  color: white;
+}
+
+.header ul {
+  list-style: none;
+}
