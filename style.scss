@@ -5,7 +5,8 @@ html {
   color: #fff;
 }
 
-p {
+p,
+ul {
   margin: 0;
 }
 
@@ -26,6 +27,7 @@ $main-padding: 1rem;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 
   p {
     font-family: $font-family-playfair;
@@ -75,8 +77,11 @@ $main-padding: 1rem;
 }
 
 .dot {
+  position: absolute;
   width: 50px;
   height: 50px;
+  left: 255px;
+  top: 139px;
   background-color: $main-color;
   border-radius: 50%;
   display: inline-block;
@@ -97,13 +102,45 @@ hr {
   background-color: $white;
   border: none;
   margin: 20px 0;
+  opacity: 1;
 }
 
 .intro {
   background-color: $bg-black;
   padding: 0 $main-padding;
+
   .number {
-    padding-top: 4rem;
+    padding-top: 5rem;
+  }
+  
+  .icons {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+}
+
+.portfolio {
+  background-color: $bg-dark;
+  padding: 0 $main-padding;
+}
+
+.about {
+  background-color: $bg-black;
+  padding: 0 $main-padding;
+}
+
+.chat {
+  background-color: $bg-dark;
+  padding: 0 $main-padding;
+}
+
+.footer {
+  background-color: $bg-dark;
+  padding: 0 $main-padding;
+
+  .icons {
+    font-size: 24px;
+    padding-bottom: 20px;
   }
 }
 
@@ -117,8 +154,9 @@ hr {
   .dot {
     width: 94px;
     height: 94px;
-    background-color: #bbb;
+    background-color: $main-color;
     border-radius: 50%;
     display: inline-block;
   }
+
 }

@@ -5,7 +5,8 @@ html {
   color: #fff;
 }
 
-p {
+p,
+ul {
   margin: 0;
 }
 
@@ -15,6 +16,7 @@ p {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 .header p {
@@ -64,8 +66,11 @@ p {
 }
 
 .dot {
+  position: absolute;
   width: 50px;
   height: 50px;
+  left: 255px;
+  top: 139px;
   background-color: #db4747;
   border-radius: 50%;
   display: inline-block;
@@ -86,6 +91,7 @@ hr {
   background-color: #fff;
   border: none;
   margin: 20px 0;
+  opacity: 1;
 }
 
 .intro {
@@ -94,7 +100,37 @@ hr {
 }
 
 .intro .number {
-  padding-top: 4rem;
+  padding-top: 5rem;
+}
+
+.intro .icons {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+
+.portfolio {
+  background-color: #212123;
+  padding: 0 1rem;
+}
+
+.about {
+  background-color: #1b1b1e;
+  padding: 0 1rem;
+}
+
+.chat {
+  background-color: #212123;
+  padding: 0 1rem;
+}
+
+.footer {
+  background-color: #212123;
+  padding: 0 1rem;
+}
+
+.footer .icons {
+  font-size: 24px;
+  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -104,7 +140,7 @@ hr {
   .dot {
     width: 94px;
     height: 94px;
-    background-color: #bbb;
+    background-color: #db4747;
     border-radius: 50%;
     display: inline-block;
   }
