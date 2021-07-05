@@ -5,9 +5,13 @@ html {
   color: #fff;
 }
 
+p {
+  margin: 0;
+}
+
 .header {
   background-color: #1b1b1e;
-  padding: 0 2rem;
+  padding: 0 1rem;
   position: fixed;
   top: 0;
   width: 100%;
@@ -34,17 +38,75 @@ html {
   color: #fff;
 }
 
+.number {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 3rem;
+  font-style: normal;
+  line-height: 75px;
+  opacity: 0.2;
+}
+
+.tiny-intro {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.main-intro {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.dot {
+  width: 50px;
+  height: 50px;
+  background-color: #db4747;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.works {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #db4747;
+}
+
+hr {
+  width: 70px;
+  height: 1px;
+  background-color: #fff;
+  border: none;
+  margin: 20px 0;
+}
+
 .intro {
   background-color: #1b1b1e;
+  padding: 0 1rem;
 }
 
 .intro .number {
-  padding-top: 5rem;
+  padding-top: 4rem;
 }
 
 @media screen and (min-width: 768px) {
   .header .li-style {
     padding-right: 2.5rem;
+  }
+  .dot {
+    width: 94px;
+    height: 94px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
 }
 /*# sourceMappingURL=style.css.map */

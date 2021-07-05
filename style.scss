@@ -5,14 +5,20 @@ html {
   color: #fff;
 }
 
+p {
+  margin: 0;
+}
+
 $font-family-poppins: 'Poppins', sans-serif;
 $font-family-playfair: 'Playfair Display', serif;
+$font-family-roboto: 'Roboto', sans-serif;
 
 $bg-black: #1b1b1e;
 $bg-dark: #212123;
 $white: #fff;
+$main-color: #db4747;
 
-$main-padding: 2rem;
+$main-padding: 1rem;
 
 .header {
   background-color: $bg-black;
@@ -43,10 +49,61 @@ $main-padding: 2rem;
   }
 }
 
+.number {
+  font-family: $font-family-poppins;
+  font-weight: 200;
+  font-size: 3rem;
+  font-style: normal;
+  line-height: 75px;
+  opacity: 0.2;
+}
+
+.tiny-intro {
+  font-family: $font-family-poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.main-intro {
+  font-family: $font-family-playfair;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 100%;
+}
+
+.dot {
+  width: 50px;
+  height: 50px;
+  background-color: $main-color;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.works {
+  font-family: $font-family-roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: $main-color;
+}
+
+hr {
+  width: 70px;
+  height: 1px;
+  background-color: $white;
+  border: none;
+  margin: 20px 0;
+}
+
 .intro {
   background-color: $bg-black;
+  padding: 0 $main-padding;
   .number {
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 }
 
@@ -55,5 +112,13 @@ $main-padding: 2rem;
     .li-style {
       padding-right: 2.5rem;
     }
+  }
+
+  .dot {
+    width: 94px;
+    height: 94px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
   }
 }
