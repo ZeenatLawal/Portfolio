@@ -1,0 +1,18 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+$font-family-poppins: 'Poppins', sans-serif;
+$font-family-playfair: 'Playfair Display', serif;
+
+.header {
+  p {
+    font-family: $font-family-poppins;
+    font-weight: 800;
+  }
+}
+
+/* @media screen and (min-width: 768px) {
+} */

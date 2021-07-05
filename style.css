@@ -4,5 +4,11 @@ html {
   margin: 0;
 }
 
+.header p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+
 /* @media screen and (min-width: 768px) {
 } */
+/*# sourceMappingURL=style.css.map */

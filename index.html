@@ -6,11 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Poppins:wght@100;200;300;800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Zeenat Lawal</title>
 </head>
 <body>
-  <header class="bg-secondary">
+  <header class="header">
     <nav class="navbar">
       <div>
         <p>ZL</p>
@@ -24,7 +28,7 @@
     </nav>
   </header>
   <main>
-    <section class="bg-info">
+    <section>
       <div>
         <p>01</p>
         <p>Hello, I'm</p>
@@ -52,7 +56,7 @@
         <p class="mb-0">Portfolio</p>
       </div>
     </section>
-    <section class="bg-secondary">
+    <section>
       <div class="card" style="width: 18rem;">
         <img src="images/mysicklebot.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -89,10 +93,10 @@
         </div>
       </div>
     </section>
-    <section class="bg-info">
+    <section>
       <div>
         <p>03</p>
-        <p>Some words</p>
+        <p>What I work with</p>
         <p>About Me</p>
         <p>Hello! I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
         <a href="#">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
@@ -116,7 +120,7 @@
         <p>Frameworks</p>
         <ul>
           <li>Bootstrap</li>
-          <li>Ruby  on rails</li>
+          <li>Ruby on rails</li>
           <li>RSpec</li>
           <li>Capybara</li>
           <li>Selenium</li>
@@ -130,6 +134,8 @@
         <ul>
           <li>Github</li> 
           <li>Terminal</li>
+          <li>Heroku</li>
+          <li>TDD</li>
         </ul>
       </div>
       <div>
@@ -162,16 +168,18 @@
             <input type="email" class="form-control" placeholder="Your email address" />
           </div>
           <div class="mb-3">
-            <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Enter your message here..."></textarea>
+            <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Enter your message here..."></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Start collaboration</button>
+          <button type="submit" class="btn btn-primary mb-2">Start collaboration</button>
         </form>
       </div>
     </section>
   </main>
+  <p class="border-top w-50"></p>
   <footer>
-    <p></p>
-    <a href="#">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
+    <div>
+      <a href="#">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
+    </div>
     <div>
       <i class="fab fa-github"></i>
       <i class="fab fa-twitter"></i>
