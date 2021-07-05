@@ -2,13 +2,49 @@ body,
 html {
   padding: 0;
   margin: 0;
+  color: #fff;
+}
+
+.header {
+  background-color: #1b1b1e;
+  padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Playfair Display", serif;
   font-weight: 800;
+  font-size: 2rem;
+  margin: 0;
 }
 
-/* @media screen and (min-width: 768px) {
-} */
+.header ul {
+  list-style: none;
+  margin: 0;
+}
+
+.header .li-style {
+  padding-right: 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.intro {
+  background-color: #1b1b1e;
+}
+
+.intro .number {
+  padding-top: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .header .li-style {
+    padding-right: 2.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
