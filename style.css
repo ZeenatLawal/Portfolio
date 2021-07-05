@@ -2,27 +2,7 @@ body,
 html {
   padding: 0;
   margin: 0;
-  width: 100%;
-  height: 100%;
 }
 
 /* @media screen and (min-width: 768px) {
-  .vertical-text {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-  }
-  
-  .navbar {
-    position: absolute;
-    width: 24px;
-    height: 388px;
-    left: 1218px;
-    top: 180px;
-  }
-  
-  .navbar-item {
-  
-  } 
 } */
