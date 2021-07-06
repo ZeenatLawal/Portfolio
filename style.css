@@ -270,6 +270,58 @@ hr {
   padding: 0 1rem;
 }
 
+.chat .number {
+  padding-top: 24px;
+}
+
+.chat .form {
+  background-color: #101010;
+  width: 288px;
+  height: 52px;
+}
+
+.chat .form label {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+  padding-left: 16px;
+  color: #7d7c84;
+}
+
+.chat .form input,
+.chat .form textarea {
+  background-color: #101010;
+  width: 100%;
+  border-width: 0;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding-left: 16px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.chat .start {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 106px;
+}
+
+.chat .btn-color {
+  width: 288px;
+  height: 44px;
+  padding: 10px 58px;
+}
+
 .footer {
   background-color: #212123;
   padding: 0 1rem;

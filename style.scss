@@ -20,6 +20,7 @@ $font-family-roboto: 'Roboto', sans-serif;
 
 $bg-black: #1b1b1e;
 $bg-dark: #212123;
+$bg-darker: #101010;
 $white: #fff;
 $main-color: #db4747;
 $green: #22b07d;
@@ -232,7 +233,7 @@ hr {
     .skill-soft {
       background-color: $red;
     }
-    
+
     .fa-hashtag {
       top: 35px;
       left: 35px;
@@ -289,6 +290,58 @@ hr {
 .chat {
   background-color: $bg-dark;
   padding: 0 $main-padding;
+
+  .number {
+    padding-top: 24px;
+  }
+
+  .form {
+    background-color: $bg-darker;
+    width: 288px;
+    height: 52px;
+
+    label {
+      font-family: $font-family-poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 15px;
+      padding-left: 16px;
+      color: $gray;
+    }
+
+    input,
+    textarea {
+      background-color: $bg-darker;
+      width: 100%;
+      border-width: 0;
+      border: none;
+      outline: none;
+      color: $white;
+      padding-left: 16px;
+      font-family: $font-family-poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+
+  .start {
+    font-family: $font-family-poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 106px;
+  }
+
+  .btn-color {
+    width: 288px;
+    height: 44px;
+    padding: 10px 58px;
+  }
 }
 
 .footer {

@@ -180,19 +180,21 @@
         <p class="number">04</p>
         <p class="tiny-intro">Interested in collaborating?</p>
         <p class="dot"></p>
-        <p class="main-intro">Let's Chat</p>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
-        <form>
-          <div class="mb-3">
-            <input type="text" class="form-control" placeholder="Your name" />
+        <p class="main-intro mb-4">Let's Chat</p>
+        <p class="tiny-intro mb-4">If you have a web application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
+        <form action="https://formspree.io/f/mayabzdz" method="post">
+          <div class="mb-3 form">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" />
           </div>
-          <div class="mb-3">
-            <input type="email" class="form-control" placeholder="Your email address" />
+          <div class="mb-3 form">
+            <label for="email">Your email address</label>
+            <input type="email" id="email" name="email" />
           </div>
-          <div class="mb-3">
+          <div class="mb-5 form">
             <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Enter your message here..."></textarea>
           </div>
-          <button type="submit" class="btn btn-color mb-2">Start collaboration</button>
+          <button class="start btn btn-color mt-5">Start collaboration</button>
         </form>
       </div>
     </section>
