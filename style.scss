@@ -164,10 +164,18 @@ hr {
       font-weight: 300;
       font-size: 10px;
       line-height: 80%;
-      padding: 10px;
+      padding: 9px;
     }
   }
   
+  .shopping-list {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 48.44%, #000000 100%);
+    background-size: cover;
+    background-position: center;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
+  }
 }
 
 .about {
