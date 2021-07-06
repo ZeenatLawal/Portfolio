@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500:800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500:800&display=swap');
+
 body,
 html {
   padding: 0;
@@ -53,11 +57,12 @@ $main-padding: 1rem;
 
 .number {
   font-family: $font-family-poppins;
-  font-weight: 200;
-  font-size: 3rem;
+  font-weight: 100;
+  font-size: 50px;
   font-style: normal;
   line-height: 75px;
   opacity: 0.2;
+  padding-top: 5rem;
 }
 
 .tiny-intro {
@@ -105,13 +110,14 @@ hr {
   opacity: 1;
 }
 
+.btn-color {
+  background-color: $main-color;
+  color: $white;
+}
+
 .intro {
   background-color: $bg-black;
   padding: 0 $main-padding;
-
-  .number {
-    padding-top: 5rem;
-  }
   
   .icons {
     font-size: 24px;
@@ -121,12 +127,66 @@ hr {
 
 .portfolio {
   background-color: $bg-dark;
-  padding: 0 $main-padding;
+  // padding: 0 $main-padding;
+
+  .card {
+    .card-title {
+      font-family: $font-family-poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 80%;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      font-family: $font-family-poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    .btn-color {
+      width: 70%;
+    }
+  }
+
+  .lang {
+    width: 84px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+
+    p {
+      font-family: $font-family-poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 80%;
+      padding: 10px;
+    }
+  }
+  
 }
 
 .about {
   background-color: $bg-black;
   padding: 0 $main-padding;
+
+  .resume {
+    width: 100%;
+  }
+
+  .skills {
+    background-color: $bg-dark;
+    margin-bottom: 1.5rem;
+  }
+
+  .soft-skills {
+    background-color: $bg-dark;
+    padding-bottom: 45px;
+  }
 }
 
 .chat {
@@ -154,9 +214,22 @@ hr {
   .dot {
     width: 94px;
     height: 94px;
-    background-color: $main-color;
-    border-radius: 50%;
-    display: inline-block;
+    left: 417px;
+    top: 120px;
+  }
+
+  .min-intro {
+    width: 730px;
+    margin: 0 auto;
+  }
+
+  .chat {
+    .dot {
+      width: 94px;
+      height: 94px;
+      left: 417px;
+      top: 4650px;
+    }
   }
 
 }

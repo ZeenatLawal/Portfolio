@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500:800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500:800&display=swap");
 body,
 html {
   padding: 0;
@@ -42,11 +45,12 @@ ul {
 
 .number {
   font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-size: 3rem;
+  font-weight: 100;
+  font-size: 50px;
   font-style: normal;
   line-height: 75px;
   opacity: 0.2;
+  padding-top: 5rem;
 }
 
 .tiny-intro {
@@ -94,13 +98,14 @@ hr {
   opacity: 1;
 }
 
+.btn-color {
+  background-color: #db4747;
+  color: #fff;
+}
+
 .intro {
   background-color: #1b1b1e;
   padding: 0 1rem;
-}
-
-.intro .number {
-  padding-top: 5rem;
 }
 
 .intro .icons {
@@ -110,12 +115,62 @@ hr {
 
 .portfolio {
   background-color: #212123;
-  padding: 0 1rem;
+}
+
+.portfolio .card .card-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  margin-bottom: 1rem;
+}
+
+.portfolio .card a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.portfolio .card .btn-color {
+  width: 70%;
+}
+
+.portfolio .lang {
+  width: 84px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio .lang p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 80%;
+  padding: 10px;
 }
 
 .about {
   background-color: #1b1b1e;
   padding: 0 1rem;
+}
+
+.about .resume {
+  width: 100%;
+}
+
+.about .skills {
+  background-color: #212123;
+  margin-bottom: 1.5rem;
+}
+
+.about .soft-skills {
+  background-color: #212123;
+  padding-bottom: 45px;
 }
 
 .chat {
@@ -140,9 +195,18 @@ hr {
   .dot {
     width: 94px;
     height: 94px;
-    background-color: #db4747;
-    border-radius: 50%;
-    display: inline-block;
+    left: 417px;
+    top: 120px;
+  }
+  .min-intro {
+    width: 730px;
+    margin: 0 auto;
+  }
+  .chat .dot {
+    width: 94px;
+    height: 94px;
+    left: 417px;
+    top: 4650px;
   }
 }
 /*# sourceMappingURL=style.css.map */

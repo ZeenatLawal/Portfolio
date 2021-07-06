@@ -4,11 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Icon -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500:800&family=Poppins:wght@100;200;300;800&family=Roboto:wght@100;200;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Zeenat Lawal</title>
 </head>
@@ -35,67 +34,94 @@
   <main>
     <!-- INTRO -->
     <section class="intro">
-      <div>
-        <p class="number">01</p>
-        <p class="tiny-intro">Hello, I'm</p>
-        <p class="dot"></p>
-        <p class="main-intro mb-4">Zeenat <br> Lawal</p>
-        <p class="tiny-intro mb-5">I am a full-stack software developer! I can help you build a product, feature or website. My language stack includes Ruby, Ruby on Rails, JavaScript and React. Look through some of my projects and experience! If you like what you see and have a project you need to be coded, don’t hesitate and contact me.</p>
-      </div>
-  
-      <div>
-        <p class="works">See my projects</p>
-        <hr>
-        <div class="d-flex justify-content-between icons">
-          <i class="fab fa-github"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-angellist"></i>
+      <div class="min-intro">
+        <div>
+          <p class="number">01</p>
+          <p class="tiny-intro">Hello, I'm</p>
+          <p class="dot"></p>
+          <p class="main-intro mb-4">Zeenat <br> Lawal</p>
+          <p class="tiny-intro mb-5">I am a full-stack software developer! I can help you build a product, feature or website. My language stack includes Ruby, Ruby on Rails, JavaScript and React. Look through some of my projects and experience! If you like what you see and have a project you need to be coded, don’t hesitate and contact me.</p>
         </div>
-      </div>
-  
-      <div>
-        <p class="number">02</p>
-        <p class="tiny-intro">My recent works</p>
-        <p class="main-intro pb-4">Portfolio</p>
+    
+        <div>
+          <p class="works">See my projects</p>
+          <hr>
+          <div class="d-flex justify-content-between icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-angellist"></i>
+          </div>
+        </div>
+    
+        <div>
+          <p class="number">02</p>
+          <p class="tiny-intro">My recent works</p>
+          <p class="main-intro pb-4">Portfolio</p>
+        </div>
       </div>
     </section>
 
     <!-- PORTFOLIO -->
     <section class="portfolio">
-      <div class="card" style="width: 18rem;">
-        <img src="images/mysicklebot.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">See Project</a>
+      <div class="card bg-dark text-white">
+        <img src="images/mysicklebot.png" class="card-img" alt="...">
+        <div class="card-img-overlay d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">Shopping List</h5>
+            <div class="card-text d-flex justify-content-between">
+              <div class="lang text-center">
+                <p>HTML/CSS</p>
+              </div>
+              <div class="lang text-center">
+                <p>Ruby on Rails</p>
+              </div>
+              <div class="lang text-center">
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn-color">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
-      <br>
-      <div class="card" style="width: 18rem;">
-        <img src="images/mysicklebot.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">See Project</a>
+      <div class="card bg-dark text-white">
+        <img src="images/mysicklebot.png" class="card-img" alt="...">
+        <div class="card-img-overlay d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">Shopping List</h5>
+            <div class="card-text d-flex justify-content-between">
+              <div class="lang text-center">
+                <p>HTML/CSS</p>
+              </div>
+              <div class="lang text-center">
+                <p>Ruby on Rails</p>
+              </div>
+              <div class="lang text-center">
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn-color">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
-      <br>
-      <div class="card" style="width: 18rem;">
-        <img src="images/mysicklebot.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">See Project</a>
-        </div>
-      </div>
-      <br>
-      <div class="card" style="width: 18rem;">
-        <img src="images/mysicklebot.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">See Project</a>
+      <div class="card bg-dark text-white">
+        <img src="images/mysicklebot.png" class="card-img" alt="...">
+        <div class="card-img-overlay d-flex flex-column justify-content-between">
+          <div>
+            <h5 class="card-title">Shopping List</h5>
+            <div class="card-text d-flex justify-content-between">
+              <div class="lang text-center">
+                <p>HTML/CSS</p>
+              </div>
+              <div class="lang text-center">
+                <p>Ruby on Rails</p>
+              </div>
+              <div class="lang text-center">
+                <p>JavaScript</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn-color">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </section>
@@ -103,13 +129,13 @@
     <!-- ABOUT -->
     <section class="about">
       <div>
-        <p>03</p>
-        <p>What I work with</p>
-        <p>About Me</p>
+        <p class="number">03</p>
+        <p class="tiny-intro">What I work with</p>
+        <p class="main-intro">About Me</p>
         <p>Hello! I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate and contact me.</p>
-        <a href="#">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
+        <a href="#" class="resume btn btn-color">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
       </div>
-      <div>
+      <div class="skills">
         <div>
           <i class="fas fa-hashtag"></i>
         </div>
@@ -121,7 +147,7 @@
           <li>CSS</li>
         </ul>
       </div>
-      <div>
+      <div class="skills">
         <div>
           <i class="fas fa-hashtag"></i>
         </div>
@@ -134,7 +160,7 @@
           <li>Selenium</li>
         </ul>
       </div>
-      <div>
+      <div class="skills">
         <div>
           <i class="fas fa-hashtag"></i>
         </div>
@@ -146,7 +172,7 @@
           <li>TDD</li>
         </ul>
       </div>
-      <div>
+      <div class="soft-skills">
         <div>
           <i class="far fa-heart"></i>
         </div>
@@ -158,17 +184,16 @@
           <li>Adaptability</li>
         </ul>
       </div>
+      <br><br><br>
     </section>
 
     <!-- CHAT -->
     <section class="chat">
       <div>
-        <p>04</p>
-        <p>Interested in collaborating?</p>
-        <div>
-          <p>Let’s chat!</p>
-          <span>0</span>
-        </div>
+        <p class="number">04</p>
+        <p class="tiny-intro">Interested in collaborating?</p>
+        <p class="dot"></p>
+        <p class="main-intro">Let's Chat</p>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
         <form>
           <div class="mb-3">
@@ -180,7 +205,7 @@
           <div class="mb-3">
             <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Enter your message here..."></textarea>
           </div>
-          <button type="submit" class="btn btn-primary mb-2">Start collaboration</button>
+          <button type="submit" class="btn btn-color mb-2">Start collaboration</button>
         </form>
       </div>
     </section>
