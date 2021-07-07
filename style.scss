@@ -26,7 +26,6 @@ $main-color: #db4747;
 $green: #22b07d;
 $blue: #376aed;
 $yellow: #f19d2a;
-$red: #db4747;
 $gray: #7d7c84;
 
 
@@ -122,6 +121,37 @@ hr {
   color: $white;
 }
 
+.group-line {
+  position: relative;
+
+  %line {
+    position: absolute;
+    width: 0;
+    height: 3092px;
+    top: 0;
+    opacity: 0.05;
+    border: 1px solid $white;
+  }
+
+  .line1 {
+    @extend %line;
+
+    left: 16px;
+  }
+
+  .line2 {
+    @extend %line;
+
+    left: 304px;
+  }
+
+  .line3 {
+    @extend %line;
+
+    left: 160px;
+  }
+}
+
 .intro {
   background-color: $bg-black;
   padding: 0 $main-padding;
@@ -214,8 +244,8 @@ hr {
 
   .skills {
     background-color: $bg-dark;
-    margin-bottom: 1.5rem;
-    padding: 24px 80px 24px 24px;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    padding: 24px;
     position: relative;
 
     .skill-lang {
@@ -231,7 +261,7 @@ hr {
     }
     
     .skill-soft {
-      background-color: $red;
+      background-color: $main-color;
     }
 
     .fa-hashtag {
@@ -255,7 +285,7 @@ hr {
     .fa-heart {
       top: 36px;
       left: 34px;
-      color: $red;
+      color: $main-color;
     }
 
     p {
@@ -350,7 +380,32 @@ hr {
 
   .icons {
     font-size: 24px;
-    padding-bottom: 20px;
+    padding-bottom: 38px;
+  }
+
+  .dash {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 288px;
+    transform: rotate(180deg);
+    margin-bottom: 20px;
+  }
+
+  .resume {
+    text-decoration: none;
+    font-family: $font-family-poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $main-color;
+
+    .fas {
+      font-size: 22px;
+    }
+  }
+
+  .link {
+    margin-bottom: 30px;
   }
 }
 

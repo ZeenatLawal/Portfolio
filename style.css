@@ -103,6 +103,31 @@ hr {
   color: #fff;
 }
 
+.group-line {
+  position: relative;
+}
+
+.group-line .line1, .group-line .line2, .group-line .line3 {
+  position: absolute;
+  width: 0;
+  height: 3092px;
+  top: 0;
+  opacity: 0.05;
+  border: 1px solid #fff;
+}
+
+.group-line .line1 {
+  left: 16px;
+}
+
+.group-line .line2 {
+  left: 304px;
+}
+
+.group-line .line3 {
+  left: 160px;
+}
+
 .intro {
   background-color: #1b1b1e;
   padding: 0 1rem;
@@ -194,8 +219,8 @@ hr {
 
 .about .skills {
   background-color: #212123;
-  margin-bottom: 1.5rem;
-  padding: 24px 80px 24px 24px;
+  margin: 0 1.5rem 1.5rem 1.5rem;
+  padding: 24px;
   position: relative;
 }
 
@@ -329,7 +354,33 @@ hr {
 
 .footer .icons {
   font-size: 24px;
-  padding-bottom: 20px;
+  padding-bottom: 38px;
+}
+
+.footer .dash {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 288px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-bottom: 20px;
+}
+
+.footer .resume {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #db4747;
+}
+
+.footer .resume .fas {
+  font-size: 22px;
+}
+
+.footer .link {
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
