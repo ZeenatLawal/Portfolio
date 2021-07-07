@@ -158,6 +158,11 @@ hr {
   .icons {
     font-size: 24px;
     margin-bottom: 35px;
+
+    .fab {
+      color: $white;
+      padding-right: 10px;
+    }
   }
 }
 
@@ -378,6 +383,11 @@ hr {
   .icons {
     font-size: 24px;
     padding-bottom: 38px;
+
+    .fab {
+      color: $white;
+      padding-right: 10px;
+    }
   }
 
   .dash {
@@ -407,22 +417,150 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
+
   .header {
     .li-style {
       padding-right: 2.5rem;
     }
   }
 
+  .group-line {
+
+    %line {
+      display: none;
+    }
+
+    // %line-desk {
+    //   position: absolute;
+    //   width: 0;
+    //   height: 3092px;
+    //   top: 0;
+    //   opacity: 0.05;
+    //   border: 1px solid $white;
+    // }
+  
+    // .line1 {
+    //   @extend %line-desk;
+  
+    //   left: 169px;
+    // }
+  
+    // .line2 {
+    //   @extend %line-desk;
+  
+    //   left: 359px;
+    // }
+  
+    // .line3 {
+    //   @extend %line-desk;
+  
+    //   left: 547px;
+    // }
+
+    // .line4 {
+    //   @extend %line-desk;
+  
+    //   left: 735px;
+    // }
+
+    // .line5 {
+    //   @extend %line-desk;
+  
+    //   left: 923px;
+    // }
+
+    // .line6 {
+    //   @extend %line-desk;
+  
+    //   left: 1111px;
+    // }
+
+    // .line7 {
+    //   @extend %line-desk;
+  
+    //   left: 1299px;
+    // }
+  }
+
+  .number {
+    font-family: $font-family-poppins;
+    font-weight: 100;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 150px;
+    opacity: 0.2;
+    padding-top: 10rem;
+  }
+
+  .tiny-intro {
+    font-family: $font-family-poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .main-intro {
+    font-family: $font-family-playfair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    line-height: 100%;
+  }
+
   .dot {
     width: 94px;
     height: 94px;
-    left: 417px;
-    top: 120px;
   }
 
-  .min-intro {
-    width: 730px;
-    margin: 0 auto;
+  .intro {
+    .min-intro {
+      width: 664px;
+      margin: 0 auto;
+    }
+
+    .number {
+      padding-top: 3.7rem;
+    }
+
+    .num-desk {
+      display: flex;
+
+      .hello {
+        padding-top: 9.7rem;
+        padding-left: 1rem;
+        position: relative;
+      }
+    }
+
+    .dot {
+      left: 556px;
+      top: 155px;
+    }
+
+    .work-desk {
+      display: flex;
+      align-items: center;
+      padding-left: 6rem;
+
+      .works {
+        padding-right: 2rem;
+      }
+
+      hr {
+        margin: 10px 0;
+        margin-right: 2rem;
+      }
+
+      .icons {
+        margin-bottom: 0;
+      }
+
+      .fab {
+        color: $white;
+        padding-right: 2rem;
+      }
+    }
   }
 
   .chat {

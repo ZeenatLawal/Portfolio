@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500:800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;500&display=swap");
-
 body,
 html {
   padding: 0;
@@ -108,9 +107,7 @@ hr {
   position: relative;
 }
 
-.group-line .line1,
-.group-line .line2,
-.group-line .line3 {
+.group-line .line1, .group-line .line2, .group-line .line3 {
   position: absolute;
   width: 0;
   height: 3092px;
@@ -139,6 +136,11 @@ hr {
 .intro .icons {
   font-size: 24px;
   margin-bottom: 35px;
+}
+
+.intro .icons .fab {
+  color: #fff;
+  padding-right: 10px;
 }
 
 .about {
@@ -360,11 +362,16 @@ hr {
   padding-bottom: 38px;
 }
 
+.footer .icons .fab {
+  color: #fff;
+  padding-right: 10px;
+}
+
 .footer .dash {
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 288px;
   -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+          transform: rotate(180deg);
   margin-bottom: 20px;
 }
 
@@ -390,19 +397,80 @@ hr {
   .header .li-style {
     padding-right: 2.5rem;
   }
-
+  .group-line .line1, .group-line .line2, .group-line .line3 {
+    display: none;
+  }
+  .number {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 150px;
+    opacity: 0.2;
+    padding-top: 10rem;
+  }
+  .tiny-intro {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main-intro {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    line-height: 100%;
+  }
   .dot {
     width: 94px;
     height: 94px;
-    left: 417px;
-    top: 120px;
   }
-
-  .min-intro {
-    width: 730px;
+  .intro .min-intro {
+    width: 664px;
     margin: 0 auto;
   }
-
+  .intro .number {
+    padding-top: 3.7rem;
+  }
+  .intro .num-desk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .intro .num-desk .hello {
+    padding-top: 9.7rem;
+    padding-left: 1rem;
+    position: relative;
+  }
+  .intro .dot {
+    left: 556px;
+    top: 155px;
+  }
+  .intro .work-desk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 6rem;
+  }
+  .intro .work-desk .works {
+    padding-right: 2rem;
+  }
+  .intro .work-desk hr {
+    margin: 10px 0;
+    margin-right: 2rem;
+  }
+  .intro .work-desk .icons {
+    margin-bottom: 0;
+  }
+  .intro .work-desk .fab {
+    color: #fff;
+    padding-right: 2rem;
+  }
   .chat .dot {
     width: 94px;
     height: 94px;
