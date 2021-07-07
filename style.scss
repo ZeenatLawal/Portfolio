@@ -29,6 +29,7 @@ $yellow: #f19d2a;
 $gray: #7d7c84;
 
 $main-padding: 1rem;
+$desk-padding: 10rem;
 
 .header {
   background-color: $bg-black;
@@ -272,6 +273,11 @@ hr {
 
   .number {
     padding-top: 24px;
+  }
+
+  .main-form {
+    width: 288px;
+    margin: 0 auto;
   }
 
   .form {
@@ -534,7 +540,7 @@ hr {
     }
 
     .dot {
-      left: 556px;
+      left: 526px;
       top: 155px;
     }
 
@@ -542,6 +548,7 @@ hr {
       display: flex;
       align-items: center;
       padding-left: 6rem;
+      padding-bottom: 7rem;
 
       .works {
         padding-right: 2rem;
@@ -561,9 +568,17 @@ hr {
         padding-right: 2rem;
       }
     }
+
+    #portfolio {
+      padding: 0 $desk-padding;
+    }
   }
 
   .chat {
+    .main-form {
+      width: 562px;
+    }
+
     .dot {
       width: 94px;
       height: 94px;

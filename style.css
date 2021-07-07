@@ -252,6 +252,11 @@ hr {
   padding-top: 24px;
 }
 
+.chat .main-form {
+  width: 288px;
+  margin: 0 auto;
+}
+
 .chat .form {
   background-color: #101010;
   width: 288px;
@@ -445,7 +450,7 @@ hr {
     position: relative;
   }
   .intro .dot {
-    left: 556px;
+    left: 526px;
     top: 155px;
   }
   .intro .work-desk {
@@ -456,6 +461,7 @@ hr {
         -ms-flex-align: center;
             align-items: center;
     padding-left: 6rem;
+    padding-bottom: 7rem;
   }
   .intro .work-desk .works {
     padding-right: 2rem;
@@ -470,6 +476,12 @@ hr {
   .intro .work-desk .fab {
     color: #fff;
     padding-right: 2rem;
+  }
+  .intro #portfolio {
+    padding: 0 10rem;
+  }
+  .chat .main-form {
+    width: 562px;
   }
   .chat .dot {
     width: 94px;
