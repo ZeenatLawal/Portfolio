@@ -28,7 +28,6 @@ $blue: #376aed;
 $yellow: #f19d2a;
 $gray: #7d7c84;
 
-
 $main-padding: 1rem;
 
 .header {
@@ -162,60 +161,6 @@ hr {
   }
 }
 
-.portfolio {
-  background-color: $bg-dark;
-  // padding: 0 $main-padding;
-
-  .card {
-    .card-title {
-      font-family: $font-family-poppins;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 20px;
-      line-height: 80%;
-      margin-bottom: 1rem;
-    }
-
-    a {
-      font-family: $font-family-poppins;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 24px;
-      text-align: center;
-    }
-
-    .btn-color {
-      width: 70%;
-      padding: 10px;
-    }
-  }
-
-  .lang {
-    width: 84px;
-    height: 30px;
-    background: rgba(0, 0, 0, 0.5);
-
-    p {
-      font-family: $font-family-poppins;
-      font-style: normal;
-      font-weight: 300;
-      font-size: 10px;
-      line-height: 80%;
-      padding: 9px;
-    }
-  }
-
-  .shopping-list {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 48.44%, #000 100%);
-    background-size: cover;
-    background-position: center;
-    border: 0.333333px solid rgba(255, 255, 255, 0.1);
-  }
-}
-
 .about {
   background-color: $bg-black;
   padding: 0 $main-padding;
@@ -233,7 +178,7 @@ hr {
     font-size: 20px;
     position: absolute;
   }
-  
+
   .skill-circle {
     width: 40px;
     height: 40px;
@@ -259,7 +204,7 @@ hr {
     .skill-git {
       background-color: $yellow;
     }
-    
+
     .skill-soft {
       background-color: $main-color;
     }
@@ -269,19 +214,19 @@ hr {
       left: 35px;
       color: $green;
     }
-  
+
     .fa-project-diagram {
       top: 37px;
       left: 32px;
       color: $blue;
     }
-  
+
     .fa-lightbulb {
       top: 34px;
       left: 37px;
       color: $yellow;
     }
-  
+
     .fa-heart {
       top: 36px;
       left: 34px;
@@ -314,7 +259,6 @@ hr {
     height: 44px;
     padding: 10px 58px;
   }
-
 }
 
 .chat {
@@ -371,6 +315,59 @@ hr {
     width: 288px;
     height: 44px;
     padding: 10px 58px;
+  }
+}
+
+.portfolio {
+  background-color: $bg-dark;
+
+  .card {
+    .card-title {
+      font-family: $font-family-poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 80%;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      font-family: $font-family-poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    .btn-color {
+      width: 70%;
+      padding: 10px;
+    }
+  }
+
+  .lang {
+    width: 84px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+
+    p {
+      font-family: $font-family-poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 80%;
+      padding: 9px;
+    }
+  }
+
+  .shopping-list {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 48.44%, #000 100%);
+    background-size: cover;
+    background-position: center;
+    border: 0.333333px solid rgba(255, 255, 255, 0.1);
   }
 }
 
