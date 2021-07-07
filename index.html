@@ -4,22 +4,222 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Icon -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Zeenat Lawal</title>
 </head>
 <body>
   <header class="header">
-    <nav class="nav flex">
+    <nav class="d-flex justify-content-between align-items-center">
       <p>ZL</p>
-      <ul class="flex">
-        <li>Portfolio</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+        <ul class="d-flex justify-content-between">
+          <li class="d-none d-md-block li-style">
+            <a href="#intro">&lt;&#47;Intro&gt;</a>
+          </li>
+          <li class="li-style">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="li-style">
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#chat">Contact</a>
+          </li>
+        </ul>
     </nav>
   </header>
+  <main class="group-line">
+    <span class="line1"></span>
+    <span class="line2"></span>
+    <span class="line3"></span>
+    <span class="line4"></span>
+    <span class="line5"></span>
+    <span class="line6"></span>
+    <span class="line7"></span>
+    <span class="line8"></span>
+    <span class="line9"></span>
+    <!-- INTRO -->
+    <section class="intro" id="intro">
+      <div class="min-intro">
+        <div>
+          <p class="number">01</p>
+          <p class="tiny-intro">Hello, I'm</p>
+          <p class="dot"></p>
+          <p class="main-intro mb-4">Zeenat <br> Lawal</p>
+          <p class="tiny-intro mb-5">I am a full-stack software developer! I can help you build a product, feature or website. My language stack includes Ruby, Ruby on Rails, JavaScript and React. Look through some of my projects and experience! </p>
+        </div>
+    
+        <div>
+          <p class="works">See my projects</p>
+          <hr>
+          <div class="d-flex justify-content-between icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-angellist"></i>
+          </div>
+        </div>
+    
+        <div>
+          <p class="number">02</p>
+          <p class="tiny-intro">My recent works</p>
+          <p class="main-intro pb-4">Portfolio</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+      <div class="card bg-dark text-white">
+        <img src="images/shopping-list.png" class="card-img" alt="Shopping List">
+        <div class="card-img-overlay d-flex flex-column justify-content-between shopping-list">
+          <div>
+            <h5 class="card-title">Shopping List</h5>
+            <div class="card-text d-flex justify-content-between">
+              <div class="lang text-center">
+                <p>HTML/CSS</p>
+              </div>
+              <div class="lang text-center">
+                <p>Ruby on Rails</p>
+              </div>
+              <div class="lang text-center">
+                <p>Bootstrap</p>
+              </div>
+            </div>
+          </div>
+          <a href="https://github.com/ZeenatLawal/Shopping-List" class="btn btn-color">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="card bg-dark text-white">
+        <img src="images/mysicklebot.png" class="card-img" alt="My Sickle Bot">
+        <div class="card-img-overlay d-flex flex-column justify-content-between shopping-list">
+          <div>
+            <h5 class="card-title">My Sickle Bot</h5>
+            <div class="card-text d-flex justify-content-between">
+              <div class="lang text-center">
+                <p>Ruby</p>
+              </div>
+            </div>
+          </div>
+          <a href="https://github.com/ZeenatLawal/Telegram-Bot-MySickleBot" class="btn btn-color">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="card bg-dark text-white">
+        <img src="images/EasySearch.png" class="card-img" alt="EasySearch">
+        <div class="card-img-overlay d-flex flex-column justify-content-between shopping-list">
+          <div>
+            <h5 class="card-title">EasySearch</h5>
+            <div class="card-text d-flex justify-content-between">
+              <div class="lang text-center">
+                <p>HTML/CSS</p>
+              </div>
+              <div class="lang text-center">
+                <p>Bootstrap</p>
+              </div>
+            </div>
+          </div>
+          <a href="https://github.com/ZeenatLawal/Directory-of-Restaurants" class="btn btn-color">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="mb-5">
+        <p class="number">03</p>
+        <p class="tiny-intro">Hi!</p>
+        <p class="main-intro mb-4">About Me</p>
+        <p class="tiny-intro mb-4">I'm a software developer specialized in different technologies for building web applications and websites. I'm a lifelong learner and a book lover(fiction). If you like what you see and have a project you need to be coded, don’t hesitate and contact me.</p>
+        <a href="https://docs.google.com/document/d/11T5Q36FS5dOcbDI3nYYsiU3mo7cnRO7fMArfvHIjD9o/edit?usp=sharing" class="resume btn btn-color">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="skills">
+        <div class="skill-circle skill-lang mb-4"></div>
+        <i class="fas fa-hashtag icons"></i>
+        <p>Languages</p>
+        <ul>
+          <li>JavaScript (ES5/ES6)</li> 
+          <li>Ruby</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+      <div class="skills">
+        <div class="skill-circle skill-frame mb-4"></div>
+        <i class="fas fa-project-diagram icons"></i>
+        <p>Frameworks</p>
+        <ul>
+          <li>Bootstrap</li>
+          <li>Ruby on rails</li>
+          <li>RSpec</li>
+          <li>Capybara</li>
+          <li>Selenium</li>
+        </ul>
+      </div>
+      <div class="skills">
+        <div class="skill-circle skill-git mb-4"></div>
+        <i class="far fa-lightbulb icons"></i>
+        <p>Skills</p>
+        <ul>
+          <li>Github</li> 
+          <li>Terminal</li>
+          <li>Heroku</li>
+          <li>TDD</li>
+        </ul>
+      </div>
+      <div class="skills">
+        <div class="skill-circle skill-soft mb-4"></div>
+        <i class="far fa-heart icons"></i>
+        <p>Soft skills</p>
+        <ul>
+          <li>Communication</li> 
+          <li>Patience</li>
+          <li>Problem-solving</li>
+          <li>Adaptability</li>
+        </ul>
+      </div>
+      <br><br><br>
+    </section>
+
+    <!-- CHAT -->
+    <section class="chat" id="chat">
+      <div>
+        <p class="number">04</p>
+        <p class="tiny-intro">Interested in collaborating?</p>
+        <p class="dot"></p>
+        <p class="main-intro mb-4">Let's Chat</p>
+        <p class="tiny-intro mb-4">If you have a web application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
+        <form action="https://formspree.io/f/mayabzdz" method="post">
+          <div class="mb-3 form">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="mb-3 form">
+            <label for="email">Your email address</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="mb-5 form">
+            <textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Enter your message here..."></textarea>
+          </div>
+          <button class="start btn btn-color mt-5">Start collaboration</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="dash"></p>
+    <div class="link">
+      <a href="https://docs.google.com/document/d/11T5Q36FS5dOcbDI3nYYsiU3mo7cnRO7fMArfvHIjD9o/edit?usp=sharing" class="resume">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
+    </div>
+    <div class="d-flex justify-content-between icons">
+      <i class="fab fa-github"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-angellist"></i>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
