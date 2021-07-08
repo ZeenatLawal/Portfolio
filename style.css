@@ -480,6 +480,17 @@ hr {
   .intro #portfolio {
     padding: 0 10rem;
   }
+  .portfolio .desc {
+    width: 480px;
+    height: 100%;
+  }
+  .portfolio .desc .extra {
+    margin-top: 30px;
+  }
+  .portfolio .desc a {
+    text-decoration: none;
+    color: #db4747;
+  }
   .chat .main-form {
     width: 562px;
   }
