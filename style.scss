@@ -590,6 +590,49 @@ hr {
     }
   }
   
+  .about {
+    padding-bottom: 150px;
+
+    .about-text {
+      width: 30rem;
+    }
+
+    .about-skills {
+      width: 32rem;
+      margin-top: 12rem;
+      display: flex;
+      justify-content: space-around;
+
+      .skills {
+        padding: 30px;
+
+        .fa-hashtag {
+          top: 40px;
+          left: 41px;
+          color: $green;
+        }
+    
+        .fa-project-diagram {
+          top: 42px;
+          left: 37px;
+          color: $blue;
+        }
+    
+        .fa-lightbulb {
+          top: 39px;
+          left: 43px;
+          color: $yellow;
+        }
+    
+        .fa-heart {
+          top: 41px;
+          left: 40px;
+          color: $main-color;
+        }
+      }
+    }
+  }
+
   .chat {
     .main-form {
       width: 562px;

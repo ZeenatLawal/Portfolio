@@ -491,6 +491,44 @@ hr {
     text-decoration: none;
     color: #db4747;
   }
+  .about {
+    padding-bottom: 150px;
+  }
+  .about .about-text {
+    width: 30rem;
+  }
+  .about .about-skills {
+    width: 32rem;
+    margin-top: 12rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .about .about-skills .skills {
+    padding: 30px;
+  }
+  .about .about-skills .skills .fa-hashtag {
+    top: 40px;
+    left: 41px;
+    color: #22b07d;
+  }
+  .about .about-skills .skills .fa-project-diagram {
+    top: 42px;
+    left: 37px;
+    color: #376aed;
+  }
+  .about .about-skills .skills .fa-lightbulb {
+    top: 39px;
+    left: 43px;
+    color: #f19d2a;
+  }
+  .about .about-skills .skills .fa-heart {
+    top: 41px;
+    left: 40px;
+    color: #db4747;
+  }
   .chat .main-form {
     width: 562px;
   }
