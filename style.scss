@@ -631,6 +631,11 @@ hr {
         }
       }
     }
+    
+    .btn-color {
+      background-color: transparent;
+      color: $main-color;
+    }
   }
 
   .chat {
@@ -639,13 +644,13 @@ hr {
     }
 
     .dot {
-      left: 606px;
+      left: 471px;
       top: 90px;
     }
 
     .min-intro {
       width: 681px;
-      margin-left: 10rem;
+      margin-left: 4.4rem;
     }
 
     .number {
@@ -674,6 +679,24 @@ hr {
     .start {
       width: 523px;
       margin-bottom: 106px;
+    }
+  }
+
+  .footer {
+    padding: 0 $desk-padding;
+  
+    .dash {
+      display: none;
+    }
+  
+    .sect {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .fab {
+      margin-right: 2rem;
     }
   }
 }

@@ -529,16 +529,20 @@ hr {
     left: 40px;
     color: #db4747;
   }
+  .about .btn-color {
+    background-color: transparent;
+    color: #db4747;
+  }
   .chat .main-form {
     width: 562px;
   }
   .chat .dot {
-    left: 606px;
+    left: 471px;
     top: 90px;
   }
   .chat .min-intro {
     width: 681px;
-    margin-left: 10rem;
+    margin-left: 4.4rem;
   }
   .chat .number {
     padding-top: 3.7rem;
@@ -563,6 +567,26 @@ hr {
   .chat .start {
     width: 523px;
     margin-bottom: 106px;
+  }
+  .footer {
+    padding: 0 10rem;
+  }
+  .footer .dash {
+    display: none;
+  }
+  .footer .sect {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .fab {
+    margin-right: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
