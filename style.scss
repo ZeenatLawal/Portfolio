@@ -639,10 +639,41 @@ hr {
     }
 
     .dot {
-      width: 94px;
-      height: 94px;
-      left: 417px;
-      top: 4650px;
+      left: 606px;
+      top: 90px;
+    }
+
+    .min-intro {
+      width: 681px;
+      margin-left: 10rem;
+    }
+
+    .number {
+      padding-top: 3.7rem;
+    }
+
+    .num-desk {
+      display: flex;
+
+      .hello {
+        padding-top: 9.7rem;
+        padding-left: 1rem;
+        position: relative;
+      }
+    }
+    
+    .main-form {
+      width: 418px;
+      margin: 0 auto;
+    }
+
+    .form {
+      width: 523px;
+    }
+
+    .start {
+      width: 523px;
+      margin-bottom: 106px;
     }
   }
 }
