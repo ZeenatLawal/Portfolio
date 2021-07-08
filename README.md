@@ -1,4 +1,9 @@
 # Portfolio
+
+## Live Demo
+
+[View Portfolio](https://zeenatlawal.github.io/Portfolio/)
+
 ## Author
 
 👤 **Zeenat Lawal**
@@ -7,6 +12,3 @@
 - Twitter: [@lawal_zeenat](https://twitter.com/lawal_zeenat)
 - LinkedIn: [Zeenat Lawal](https://www.linkedin.com/in/zeenatlawal/)
 
-## Live Demo
-
-[View Portfolio](https://zeenatlawal.github.io/Portfolio/)
