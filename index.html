@@ -44,27 +44,35 @@
     <!-- INTRO -->
     <section class="intro" id="intro">
       <div class="min-intro">
-        <div>
-          <p class="number">01</p>
-          <p class="tiny-intro">Hello, I'm</p>
-          <p class="dot"></p>
-          <p class="main-intro mb-4">Zeenat <br> Lawal</p>
-          <p class="tiny-intro mb-5">I am a full-stack software developer! I can help you build a product, feature or website. My language stack includes Ruby, Ruby on Rails, JavaScript and React. Look through some of my projects and experience! </p>
-        </div>
-    
-        <div>
-          <p class="works">See my projects</p>
-          <hr>
-          <div class="d-flex justify-content-between icons">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-angellist"></i>
+        <div class="num-desk">
+          <div>
+            <p class="number">01</p>
+          </div>
+          <div class="hello">
+            <p class="tiny-intro">Hello, I'm</p>
+            <p class="dot"></p>
+            <p class="main-intro mb-4">Zeenat <br> Lawal</p>
+            <p class="tiny-intro mb-5">I am a full-stack software developer! I can help you build a product, feature or website. My language stack includes Ruby, Ruby on Rails, JavaScript and React. Look through some of my projects and experience! </p>
           </div>
         </div>
     
+        <div class="work-desk">
+          <p class="works">See my projects</p>
+          <hr>
+          <div class="d-flex justify-content-between icons">
+            <a href="https://github.com/ZeenatLawal"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/lawal_zeenat"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/zeenatlawal/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-angellist"></i></a>
+          </div>
+        </div>
+    
+      </div>
+      <div id="portfolio" class="num-desk">
         <div>
           <p class="number">02</p>
+        </div>
+        <div class="hello">
           <p class="tiny-intro">My recent works</p>
           <p class="main-intro pb-4">Portfolio</p>
         </div>
@@ -72,126 +80,184 @@
     </section>
 
     <!-- PORTFOLIO -->
-    <section class="portfolio" id="portfolio">
-      <div class="card bg-dark text-white">
-        <img src="images/shopping-list.png" class="card-img" alt="Shopping List">
-        <div class="card-img-overlay d-flex flex-column justify-content-between shopping-list">
-          <div>
-            <h5 class="card-title">Shopping List</h5>
-            <div class="card-text d-flex justify-content-between">
-              <div class="lang text-center">
-                <p>HTML/CSS</p>
-              </div>
-              <div class="lang text-center">
-                <p>Ruby on Rails</p>
-              </div>
-              <div class="lang text-center">
-                <p>Bootstrap</p>
+    <section class="portfolio">
+      <div class="d-md-flex">
+        <div class="d-none d-md-block">
+          <div class="card bg-dark desc">
+            <div class="card-body">
+              <h5 class="card-title">Shopping List</h5>
+              <img src="images/profile.png" class="card-img my-4" alt="Shopping List">
+              <p class="card-text">This is an app that allows users to create their shopping list and add items to a group(category) they desire and also add items they don't want to be grouped separately.</p>
+              <div class="extra">
+                <a href="https://shopping-list-zee.herokuapp.com/" class="card-link">See Live &nbsp;<i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/ZeenatLawal/Shopping-List" class="card-link">See Source &nbsp;<i class="fab fa-github"></i></a>
               </div>
             </div>
           </div>
-          <a href="https://github.com/ZeenatLawal/Shopping-List" class="btn btn-color">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="card bg-dark text-white">
+          <img src="images/shopping-list.png" class="card-img" alt="Shopping List">
+          <div class="card-img-overlay d-flex flex-column justify-content-between shopping-list">
+            <div>
+              <h5 class="card-title">Shopping List</h5>
+              <div class="card-text d-flex justify-content-between">
+                <div class="lang text-center">
+                  <p>HTML/CSS</p>
+                </div>
+                <div class="lang text-center">
+                  <p>Ruby on Rails</p>
+                </div>
+                <div class="lang text-center">
+                  <p>Bootstrap</p>
+                </div>
+              </div>
+            </div>
+            <a href="https://github.com/ZeenatLawal/Shopping-List" class="btn btn-color d-md-none">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
+          </div>
         </div>
       </div>
-      <div class="card bg-dark text-white">
-        <img src="images/mysicklebot.png" class="card-img" alt="My Sickle Bot">
-        <div class="card-img-overlay d-flex flex-column justify-content-between shopping-list">
-          <div>
-            <h5 class="card-title">My Sickle Bot</h5>
-            <div class="card-text d-flex justify-content-between">
-              <div class="lang text-center">
-                <p>Ruby</p>
+      <div class="d-md-flex">
+        <div class="card bg-dark text-white">
+          <img src="images/mysicklebot.png" class="card-img" alt="My Sickle Bot">
+          <div class="card-img-overlay d-flex flex-column justify-content-between shopping-list">
+            <div>
+              <h5 class="card-title">My Sickle Bot</h5>
+              <div class="card-text d-flex justify-content-between">
+                <div class="lang text-center">
+                  <p>Ruby</p>
+                </div>
+              </div>
+            </div>
+            <a href="https://github.com/ZeenatLawal/Telegram-Bot-MySickleBot" class="btn btn-color d-md-none">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="d-none d-md-block">
+          <div class="card bg-dark desc">
+            <div class="card-body">
+              <h5 class="card-title">My Sickle Bot</h5>
+              <img src="images/mybot.png" class="card-img my-4" alt="My Sickle Bot">
+              <p class="card-text">MySickleBot is a telegram bot where users can get health tips on Sickle Cell Anaemia. Users can get healthy living, harmful things, help a loved one and when to get medical care tips.</p>
+              <div class="extra">
+                <a href="https://github.com/ZeenatLawal/Telegram-Bot-MySickleBot" class="card-link">See Live &nbsp;<i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/ZeenatLawal/Telegram-Bot-MySickleBot" class="card-link">See Source &nbsp;<i class="fab fa-github"></i></a>
               </div>
             </div>
           </div>
-          <a href="https://github.com/ZeenatLawal/Telegram-Bot-MySickleBot" class="btn btn-color">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
-      <div class="card bg-dark text-white">
-        <img src="images/EasySearch.png" class="card-img" alt="EasySearch">
-        <div class="card-img-overlay d-flex flex-column justify-content-between shopping-list">
-          <div>
-            <h5 class="card-title">EasySearch</h5>
-            <div class="card-text d-flex justify-content-between">
-              <div class="lang text-center">
-                <p>HTML/CSS</p>
-              </div>
-              <div class="lang text-center">
-                <p>Bootstrap</p>
+      <div class="d-md-flex">
+        <div class="d-none d-md-block">
+          <div class="card bg-dark desc">
+            <div class="card-body">
+              <h5 class="card-title">EasySearch</h5>
+              <img src="images/search.png" class="card-img my-3" alt="EasySearch">
+              <p class="card-text">EasySearch - A online directory of restaurants project created using semantic HTML tags, CSS selectors, HTML elements box model (margin, padding, width, height) & Bootstrap. The UI was created to adapt to different screen sizes using media queries and using industry-standard tools such as flexbox to place elements on the page.</p>
+              <div class="extra">
+                <a href="https://zeenatlawal.github.io/Directory-of-Restaurants/" class="card-link">See Live &nbsp;<i class="fas fa-external-link-alt"></i></a>
+                <a href="https://github.com/ZeenatLawal/Directory-of-Restaurants" class="card-link">See Source &nbsp;<i class="fab fa-github"></i></a>
               </div>
             </div>
           </div>
-          <a href="https://github.com/ZeenatLawal/Directory-of-Restaurants" class="btn btn-color">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="card bg-dark text-white">
+          <img src="images/EasySearch.png" class="card-img" alt="EasySearch">
+          <div class="card-img-overlay d-flex flex-column justify-content-between shopping-list">
+            <div>
+              <h5 class="card-title">EasySearch</h5>
+              <div class="card-text d-flex justify-content-between">
+                <div class="lang text-center">
+                  <p>HTML/CSS</p>
+                </div>
+                <div class="lang text-center">
+                  <p>Bootstrap</p>
+                </div>
+              </div>
+            </div>
+            <a href="https://github.com/ZeenatLawal/Directory-of-Restaurants" class="btn btn-color d-md-none">View the Project &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ABOUT -->
-    <section class="about" id="about">
-      <div class="mb-5">
+    <section class="about d-md-flex flex-row-reverse justify-content-around" id="about">
+      <div class="mb-5 about-text">
         <p class="number">03</p>
         <p class="tiny-intro">Hi!</p>
         <p class="main-intro mb-4">About Me</p>
         <p class="tiny-intro mb-4">I'm a software developer specialized in different technologies for building web applications and websites. I'm a lifelong learner and a book lover(fiction). If you like what you see and have a project you need to be coded, don’t hesitate and contact me.</p>
         <a href="https://docs.google.com/document/d/11T5Q36FS5dOcbDI3nYYsiU3mo7cnRO7fMArfvHIjD9o/edit?usp=sharing" class="resume btn btn-color">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
       </div>
-      <div class="skills">
-        <div class="skill-circle skill-lang mb-4"></div>
-        <i class="fas fa-hashtag icons"></i>
-        <p>Languages</p>
-        <ul>
-          <li>JavaScript (ES5/ES6)</li> 
-          <li>Ruby</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-      </div>
-      <div class="skills">
-        <div class="skill-circle skill-frame mb-4"></div>
-        <i class="fas fa-project-diagram icons"></i>
-        <p>Frameworks</p>
-        <ul>
-          <li>Bootstrap</li>
-          <li>Ruby on rails</li>
-          <li>RSpec</li>
-          <li>Capybara</li>
-          <li>Selenium</li>
-        </ul>
-      </div>
-      <div class="skills">
-        <div class="skill-circle skill-git mb-4"></div>
-        <i class="far fa-lightbulb icons"></i>
-        <p>Skills</p>
-        <ul>
-          <li>Github</li> 
-          <li>Terminal</li>
-          <li>Heroku</li>
-          <li>TDD</li>
-        </ul>
-      </div>
-      <div class="skills">
-        <div class="skill-circle skill-soft mb-4"></div>
-        <i class="far fa-heart icons"></i>
-        <p>Soft skills</p>
-        <ul>
-          <li>Communication</li> 
-          <li>Patience</li>
-          <li>Problem-solving</li>
-          <li>Adaptability</li>
-        </ul>
+      <div class="about-skills">
+        <div>
+          <div class="skills">
+            <div class="skill-circle skill-lang mb-4"></div>
+            <i class="fas fa-hashtag icons"></i>
+            <p>Languages</p>
+            <ul>
+              <li>JavaScript (ES5/ES6)</li> 
+              <li>Ruby</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <div class="skill-circle skill-frame mb-4"></div>
+            <i class="fas fa-project-diagram icons"></i>
+            <p>Frameworks</p>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>Capybara</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="skills">
+            <div class="skill-circle skill-git mb-4"></div>
+            <i class="far fa-lightbulb icons"></i>
+            <p>Skills</p>
+            <ul>
+              <li>Github</li> 
+              <li>Terminal</li>
+              <li>Heroku</li>
+              <li>TDD</li>
+            </ul>
+          </div>
+          <div class="skills">
+            <div class="skill-circle skill-soft mb-4"></div>
+            <i class="far fa-heart icons"></i>
+            <p>Soft skills</p>
+            <ul>
+              <li>Communication</li> 
+              <li>Patience</li>
+              <li>Problem-solving</li>
+              <li>Adaptability</li>
+              <li>Teamwork</li>
+            </ul>
+          </div>
+        </div>
       </div>
       <br><br><br>
     </section>
 
     <!-- CHAT -->
     <section class="chat" id="chat">
-      <div>
-        <p class="number">04</p>
-        <p class="tiny-intro">Interested in collaborating?</p>
-        <p class="dot"></p>
-        <p class="main-intro mb-4">Let's Chat</p>
-        <p class="tiny-intro mb-4">If you have a web application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
-        <form action="https://formspree.io/f/mayabzdz" method="post">
+      <div class="min-intro">
+        <div class="num-desk">
+          <div>
+            <p class="number">04</p>
+          </div>
+          <div class="hello">
+            <p class="tiny-intro">Interested in collaborating?</p>
+            <p class="dot"></p>
+            <p class="main-intro mb-4">Let's Chat</p>
+            <p class="tiny-intro mb-4">If you have a web application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.</p>
+          </div>
+        </div>
+        <form action="https://formspree.io/f/mayabzdz" method="post" class="main-form">
           <div class="mb-3 form">
             <label for="name">Your name</label>
             <input type="text" id="name" name="name" />
@@ -210,14 +276,16 @@
   </main>
   <footer class="footer">
     <p class="dash"></p>
-    <div class="link">
-      <a href="https://docs.google.com/document/d/11T5Q36FS5dOcbDI3nYYsiU3mo7cnRO7fMArfvHIjD9o/edit?usp=sharing" class="resume">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
-    </div>
-    <div class="d-flex justify-content-between icons">
-      <i class="fab fa-github"></i>
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-angellist"></i>
+    <div class="sect">
+      <div class="link">
+        <a href="https://docs.google.com/document/d/11T5Q36FS5dOcbDI3nYYsiU3mo7cnRO7fMArfvHIjD9o/edit?usp=sharing" class="resume">Get my Resume &nbsp;<i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="d-flex justify-content-between icons">
+        <a href="https://github.com/ZeenatLawal"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/lawal_zeenat"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/zeenatlawal/"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-angellist"></i></a>
+      </div>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

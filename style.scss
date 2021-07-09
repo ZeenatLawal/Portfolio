@@ -29,6 +29,7 @@ $yellow: #f19d2a;
 $gray: #7d7c84;
 
 $main-padding: 1rem;
+$desk-padding: 10rem;
 
 .header {
   background-color: $bg-black;
@@ -158,6 +159,11 @@ hr {
   .icons {
     font-size: 24px;
     margin-bottom: 35px;
+
+    .fab {
+      color: $white;
+      padding-right: 10px;
+    }
   }
 }
 
@@ -269,6 +275,11 @@ hr {
     padding-top: 24px;
   }
 
+  .main-form {
+    width: 288px;
+    margin: 0 auto;
+  }
+
   .form {
     background-color: $bg-darker;
     width: 288px;
@@ -378,6 +389,11 @@ hr {
   .icons {
     font-size: 24px;
     padding-bottom: 38px;
+
+    .fab {
+      color: $white;
+      padding-right: 10px;
+    }
   }
 
   .dash {
@@ -407,30 +423,280 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
+
   .header {
     .li-style {
       padding-right: 2.5rem;
     }
   }
 
+  .group-line {
+
+    %line {
+      display: none;
+    }
+
+    // %line-desk {
+    //   position: absolute;
+    //   width: 0;
+    //   height: 3092px;
+    //   top: 0;
+    //   opacity: 0.05;
+    //   border: 1px solid $white;
+    // }
+  
+    // .line1 {
+    //   @extend %line-desk;
+  
+    //   left: 169px;
+    // }
+  
+    // .line2 {
+    //   @extend %line-desk;
+  
+    //   left: 359px;
+    // }
+  
+    // .line3 {
+    //   @extend %line-desk;
+  
+    //   left: 547px;
+    // }
+
+    // .line4 {
+    //   @extend %line-desk;
+  
+    //   left: 735px;
+    // }
+
+    // .line5 {
+    //   @extend %line-desk;
+  
+    //   left: 923px;
+    // }
+
+    // .line6 {
+    //   @extend %line-desk;
+  
+    //   left: 1111px;
+    // }
+
+    // .line7 {
+    //   @extend %line-desk;
+  
+    //   left: 1299px;
+    // }
+  }
+
+  .number {
+    font-family: $font-family-poppins;
+    font-weight: 100;
+    font-size: 100px;
+    font-style: normal;
+    line-height: 150px;
+    opacity: 0.2;
+    padding-top: 10rem;
+  }
+
+  .tiny-intro {
+    font-family: $font-family-poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .main-intro {
+    font-family: $font-family-playfair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 110px;
+    line-height: 100%;
+  }
+
   .dot {
     width: 94px;
     height: 94px;
-    left: 417px;
-    top: 120px;
   }
 
-  .min-intro {
-    width: 730px;
-    margin: 0 auto;
+  .intro {
+    .min-intro {
+      width: 664px;
+      margin: 0 auto;
+    }
+
+    .number {
+      padding-top: 3.7rem;
+    }
+
+    .num-desk {
+      display: flex;
+
+      .hello {
+        padding-top: 9.7rem;
+        padding-left: 1rem;
+        position: relative;
+      }
+    }
+
+    .dot {
+      left: 526px;
+      top: 155px;
+    }
+
+    .work-desk {
+      display: flex;
+      align-items: center;
+      padding-left: 6rem;
+      padding-bottom: 7rem;
+
+      .works {
+        padding-right: 2rem;
+      }
+
+      hr {
+        margin: 10px 0;
+        margin-right: 2rem;
+      }
+
+      .icons {
+        margin-bottom: 0;
+      }
+
+      .fab {
+        color: $white;
+        padding-right: 2rem;
+      }
+    }
+
+    #portfolio {
+      padding: 0 $desk-padding;
+    }
+  }
+
+  .portfolio {
+    .desc {
+      width: 480px;
+      height: 100%;
+
+      .extra {
+        margin-top: 30px;
+      }
+
+      a {
+        text-decoration: none;
+        color: $main-color;
+      }
+    }
+  }
+  
+  .about {
+    padding-bottom: 150px;
+
+    .about-text {
+      width: 30rem;
+    }
+
+    .about-skills {
+      width: 32rem;
+      margin-top: 12rem;
+      display: flex;
+      justify-content: space-around;
+
+      .skills {
+        padding: 30px;
+
+        .fa-hashtag {
+          top: 40px;
+          left: 41px;
+          color: $green;
+        }
+    
+        .fa-project-diagram {
+          top: 42px;
+          left: 37px;
+          color: $blue;
+        }
+    
+        .fa-lightbulb {
+          top: 39px;
+          left: 43px;
+          color: $yellow;
+        }
+    
+        .fa-heart {
+          top: 41px;
+          left: 40px;
+          color: $main-color;
+        }
+      }
+    }
+    
+    .btn-color {
+      background-color: transparent;
+      color: $main-color;
+    }
   }
 
   .chat {
+    .main-form {
+      width: 562px;
+    }
+
     .dot {
-      width: 94px;
-      height: 94px;
-      left: 417px;
-      top: 4650px;
+      left: 471px;
+      top: 90px;
+    }
+
+    .min-intro {
+      width: 681px;
+      margin-left: 4.4rem;
+    }
+
+    .number {
+      padding-top: 3.7rem;
+    }
+
+    .num-desk {
+      display: flex;
+
+      .hello {
+        padding-top: 9.7rem;
+        padding-left: 1rem;
+        position: relative;
+      }
+    }
+    
+    .main-form {
+      width: 418px;
+      margin: 0 auto;
+    }
+
+    .form {
+      width: 523px;
+    }
+
+    .start {
+      width: 523px;
+      margin-bottom: 106px;
+    }
+  }
+
+  .footer {
+    padding: 0 $desk-padding;
+  
+    .dash {
+      display: none;
+    }
+  
+    .sect {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .fab {
+      margin-right: 2rem;
     }
   }
 }
