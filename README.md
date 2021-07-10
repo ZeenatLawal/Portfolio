@@ -1,6 +1,6 @@
 # Portfolio
 
-> This project was built using HTML, SASS and Bootstrap.
+> This project was built using HTML, SCSS and Bootstrap.
 
 ## Live Demo
 
