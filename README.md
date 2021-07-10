@@ -1,5 +1,7 @@
 # Portfolio
 
+> This project was built using HTML, SASS and Bootstrap.
+
 ## Live Demo
 
 [View Portfolio](https://zeenatlawal.github.io/Portfolio/)
