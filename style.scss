@@ -423,7 +423,6 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
-
   .header {
     .li-style {
       padding-right: 2.5rem;
@@ -431,61 +430,9 @@ hr {
   }
 
   .group-line {
-
     %line {
       display: none;
     }
-
-    // %line-desk {
-    //   position: absolute;
-    //   width: 0;
-    //   height: 3092px;
-    //   top: 0;
-    //   opacity: 0.05;
-    //   border: 1px solid $white;
-    // }
-  
-    // .line1 {
-    //   @extend %line-desk;
-  
-    //   left: 169px;
-    // }
-  
-    // .line2 {
-    //   @extend %line-desk;
-  
-    //   left: 359px;
-    // }
-  
-    // .line3 {
-    //   @extend %line-desk;
-  
-    //   left: 547px;
-    // }
-
-    // .line4 {
-    //   @extend %line-desk;
-  
-    //   left: 735px;
-    // }
-
-    // .line5 {
-    //   @extend %line-desk;
-  
-    //   left: 923px;
-    // }
-
-    // .line6 {
-    //   @extend %line-desk;
-  
-    //   left: 1111px;
-    // }
-
-    // .line7 {
-    //   @extend %line-desk;
-  
-    //   left: 1299px;
-    // }
   }
 
   .number {
@@ -505,7 +452,7 @@ hr {
     font-size: 16px;
     line-height: 24px;
   }
-  
+
   .main-intro {
     font-family: $font-family-playfair;
     font-style: normal;
@@ -517,6 +464,24 @@ hr {
   .dot {
     width: 94px;
     height: 94px;
+  }
+
+  .footer {
+    padding: 0 $desk-padding;
+
+    .dash {
+      display: none;
+    }
+
+    .sect {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .fab {
+      margin-right: 2rem;
+    }
   }
 
   .intro {
@@ -589,7 +554,7 @@ hr {
       }
     }
   }
-  
+
   .about {
     padding-bottom: 150px;
 
@@ -611,19 +576,19 @@ hr {
           left: 41px;
           color: $green;
         }
-    
+
         .fa-project-diagram {
           top: 42px;
           left: 37px;
           color: $blue;
         }
-    
+
         .fa-lightbulb {
           top: 39px;
           left: 43px;
           color: $yellow;
         }
-    
+
         .fa-heart {
           top: 41px;
           left: 40px;
@@ -631,7 +596,7 @@ hr {
         }
       }
     }
-    
+
     .btn-color {
       background-color: transparent;
       color: $main-color;
@@ -639,10 +604,6 @@ hr {
   }
 
   .chat {
-    .main-form {
-      width: 562px;
-    }
-
     .dot {
       left: 471px;
       top: 90px;
@@ -666,7 +627,7 @@ hr {
         position: relative;
       }
     }
-    
+
     .main-form {
       width: 418px;
       margin: 0 auto;
@@ -679,24 +640,6 @@ hr {
     .start {
       width: 523px;
       margin-bottom: 106px;
-    }
-  }
-
-  .footer {
-    padding: 0 $desk-padding;
-  
-    .dash {
-      display: none;
-    }
-  
-    .sect {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .fab {
-      margin-right: 2rem;
     }
   }
 }
