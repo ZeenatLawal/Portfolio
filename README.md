@@ -16,7 +16,7 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions are welcome!
 
 ## Show your support
 
