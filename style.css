@@ -360,20 +360,8 @@ hr {
 .portfolio .shopping-list {
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#000),
-    color-stop(48.44%, rgba(0, 0, 0, 0)),
-    to(#000)
-  );
-  background: linear-gradient(
-    180deg,
-    #000 0%,
-    rgba(0, 0, 0, 0) 48.44%,
-    #000 100%
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000));
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 48.44%, #000 100%);
   background-size: cover;
   background-position: center;
   border: 0.33333px solid rgba(255, 255, 255, 0.1);
@@ -472,7 +460,6 @@ hr {
 
   .footer .sect {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -497,7 +484,6 @@ hr {
 
   .intro .num-desk {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 
@@ -514,7 +500,6 @@ hr {
 
   .intro .work-desk {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -571,7 +556,6 @@ hr {
     width: 32rem;
     margin-top: 12rem;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -626,7 +610,6 @@ hr {
 
   .chat .num-desk {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 
