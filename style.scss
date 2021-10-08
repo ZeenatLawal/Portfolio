@@ -2,19 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500:800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;500&display=swap');
 
-body,
-html {
-  padding: 0;
-  margin: 0;
-  color: #fff;
-  background: repeating-linear-gradient(90deg, $bg-black, $bg-black 169px, $bg-dark 169px, $bg-dark 170px);
-}
-
-p,
-ul {
-  margin: 0;
-}
-
 $font-family-poppins: 'Poppins', sans-serif;
 $font-family-playfair: 'Playfair Display', serif;
 $font-family-roboto: 'Roboto', sans-serif;
@@ -31,6 +18,19 @@ $gray: #7d7c84;
 
 $main-padding: 1rem;
 $desk-padding: 10rem;
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background: repeating-linear-gradient(90deg, $bg-black, $bg-black 169px, $bg-dark 169px, $bg-dark 170px);
+}
+
+p,
+ul {
+  margin: 0;
+}
 
 .header {
   background-color: $bg-black;
@@ -397,7 +397,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .header {
     .li-style {
       padding-right: 2.5rem;
