@@ -2,6 +2,10 @@
 
 > This portfolio was built using HTML, SCSS and Bootstrap.
 
+
+### Portfolio
+![screenshot](./images/portfolio.png)
+
 ## Live Demo
 
 [View Portfolio](https://zeenatlawal.github.io/Portfolio/)
