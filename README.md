@@ -1,6 +1,6 @@
 # Portfolio
 
-> My portfolio showcase.
+> My portfolio showcasing projects built with JavaScript, React & Redux, Ruby and Ruby on Rails.
 
 
 ### Portfolio
