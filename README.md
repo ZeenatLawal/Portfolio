@@ -1,10 +1,16 @@
 # Portfolio
 
-> This portfolio was built using HTML, SCSS and Bootstrap.
+> My portfolio showcasing projects built with JavaScript, React & Redux, Ruby and Ruby on Rails.
 
 
 ### Portfolio
 ![screenshot](./images/portfolio.png)
+
+## Built With
+
+- HTML
+- SCSS
+- Bootstrap
 
 ## Live Demo
 
