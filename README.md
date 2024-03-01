@@ -1,6 +1,6 @@
 # Portfolio
 
-> My portfolio showcasing projects built with JavaScript, React & Redux, Ruby and Ruby on Rails.
+> My portfolio showcasing projects built with JavaScript, React, Material-UI, HTML/CSS, Redux, Ruby and Ruby on Rails.
 
 
 ### Portfolio
