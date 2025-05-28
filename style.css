@@ -459,7 +459,7 @@ hr {
         -ms-flex-align: center;
             align-items: center;
     padding-left: 6rem;
-    padding-bottom: 7rem;
+    /* padding-bottom: 7rem; */
   }
   .intro .work-desk .works {
     padding-right: 2rem;
