@@ -22,23 +22,19 @@ ul {
   width: 100%;
   z-index: 1;
 }
-
 .header p {
   font-family: "Playfair Display", serif;
   font-weight: 800;
   font-size: 2rem;
   margin: 0;
 }
-
 .header ul {
   list-style: none;
   margin: 0;
 }
-
 .header .li-style {
   padding-right: 1rem;
 }
-
 .header a {
   text-decoration: none;
   color: #fff;
@@ -114,21 +110,19 @@ hr {
 .intro {
   padding: 0 1rem;
 }
-
 .intro .icons {
   font-size: 24px;
   margin-bottom: 35px;
 }
-
 .intro .icons .fab {
   color: #fff;
   padding-right: 10px;
 }
 
 .about {
-  padding: 0 1rem;
+  padding: 0 1rem 20px;
+  background-color: #212123;
 }
-
 .about .resume {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -137,12 +131,10 @@ hr {
   line-height: 24px;
   text-align: center;
 }
-
 .about .icons {
   font-size: 20px;
   position: absolute;
 }
-
 .about .skill-circle {
   width: 40px;
   height: 40px;
@@ -150,54 +142,44 @@ hr {
   opacity: 0.2;
   text-align: center;
 }
-
 .about .skills {
-  background-color: #212123;
+  background-color: #101010;
   margin: 0 1.5rem 1.5rem 1.5rem;
   padding: 24px;
   position: relative;
 }
-
 .about .skills .skill-lang {
   background-color: #22b07d;
 }
-
 .about .skills .skill-frame {
   background-color: #376aed;
 }
-
 .about .skills .skill-git {
   background-color: #f19d2a;
 }
-
 .about .skills .skill-soft {
   background-color: #db4747;
 }
-
 .about .skills .fa-hashtag {
   top: 35px;
   left: 35px;
   color: #22b07d;
 }
-
 .about .skills .fa-project-diagram {
   top: 37px;
   left: 32px;
   color: #376aed;
 }
-
 .about .skills .fa-lightbulb {
   top: 34px;
   left: 37px;
   color: #f19d2a;
 }
-
 .about .skills .fa-heart {
   top: 36px;
   left: 34px;
   color: #db4747;
 }
-
 .about .skills p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -206,7 +188,6 @@ hr {
   line-height: 24px;
   margin-bottom: 18px;
 }
-
 .about .skills ul {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -217,7 +198,6 @@ hr {
   color: #7d7c84;
   padding-left: 14px;
 }
-
 .about .btn-color {
   width: 288px;
   height: 44px;
@@ -228,22 +208,18 @@ hr {
   background-color: #212123;
   padding: 0 1rem;
 }
-
 .chat .number {
   padding-top: 24px;
 }
-
 .chat .main-form {
   width: 288px;
   margin: 0 auto;
 }
-
 .chat .form {
   background-color: #101010;
   width: 288px;
   height: 52px;
 }
-
 .chat .form label {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -253,7 +229,6 @@ hr {
   padding-left: 16px;
   color: #7d7c84;
 }
-
 .chat .form input,
 .chat .form textarea {
   background-color: #101010;
@@ -269,7 +244,6 @@ hr {
   font-size: 14px;
   line-height: 21px;
 }
-
 .chat .start {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -279,7 +253,6 @@ hr {
   text-align: center;
   margin-bottom: 106px;
 }
-
 .chat .btn-color {
   width: 288px;
   height: 44px;
@@ -289,7 +262,6 @@ hr {
 .portfolio {
   background-color: #212123;
 }
-
 .portfolio .card .card-title {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -298,7 +270,6 @@ hr {
   line-height: 80%;
   margin-bottom: 1rem;
 }
-
 .portfolio .card a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -307,18 +278,15 @@ hr {
   line-height: 24px;
   text-align: center;
 }
-
 .portfolio .card .btn-color {
   width: 70%;
   padding: 10px;
 }
-
 .portfolio .lang {
   width: 84px;
   height: 30px;
   background: rgba(0, 0, 0, 0.5);
 }
-
 .portfolio .lang p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -327,40 +295,99 @@ hr {
   line-height: 80%;
   padding: 9px;
 }
-
 .portfolio .shopping-list {
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(48.44%, rgba(0, 0, 0, 0)), to(#000));
   background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 48.44%, #000 100%);
   background-size: cover;
   background-position: center;
-  border: 0.33333px solid rgba(255, 255, 255, 0.1);
+  border: 0.333333px solid rgba(255, 255, 255, 0.1);
+}
+
+.experience {
+  padding: 0 1rem 40px;
+}
+.experience .experience-grid {
+  display: grid;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.experience .experience-card {
+  background: #212123;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.experience .experience-card .experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+.experience .experience-card .experience-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.experience .experience-card .experience-company {
+  color: #db4747;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.experience .experience-card .experience-company a {
+  color: var(--main-color);
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.experience .experience-card .experience-company a:hover {
+  color: #ff5757;
+}
+.experience .experience-card .experience-period {
+  color: #7d7c84;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+}
+.experience .experience-card .experience-description {
+  color: #7d7c84;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.experience .experience-card .tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.experience .experience-card .tech-stack .tech-tag {
+  background: rgba(219, 71, 71, 0.2);
+  color: #db4747;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .footer {
   background-color: #212123;
   padding: 0 1rem;
 }
-
 .footer .icons {
   font-size: 24px;
   padding-bottom: 38px;
 }
-
 .footer .icons .fab {
   color: #fff;
   padding-right: 10px;
 }
-
 .footer .dash {
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 288px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
   margin-bottom: 20px;
 }
-
 .footer .resume {
   text-decoration: none;
   font-family: "Poppins", sans-serif;
@@ -370,11 +397,9 @@ hr {
   line-height: 24px;
   color: #db4747;
 }
-
 .footer .resume .fas {
   font-size: 22px;
 }
-
 .footer .link {
   margin-bottom: 30px;
 }
@@ -390,7 +415,7 @@ hr {
     font-style: normal;
     line-height: 150px;
     opacity: 0.2;
-    padding-top: 10rem;
+    padding-top: 7rem;
   }
   .tiny-intro {
     font-family: "Poppins", sans-serif;
@@ -417,15 +442,9 @@ hr {
     display: none;
   }
   .footer .sect {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
   .footer .fab {
     margin-right: 2rem;
@@ -438,8 +457,6 @@ hr {
     padding-top: 3.7rem;
   }
   .intro .num-desk {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .intro .num-desk .hello {
@@ -452,14 +469,10 @@ hr {
     top: 155px;
   }
   .intro .work-desk {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     padding-left: 6rem;
-    /* padding-bottom: 7rem; */
+    padding-bottom: 7rem;
   }
   .intro .work-desk .works {
     padding-right: 2rem;
@@ -489,20 +502,14 @@ hr {
     text-decoration: none;
     color: #db4747;
   }
-  .about {
-    padding-bottom: 150px;
-  }
   .about .about-text {
     width: 30rem;
   }
   .about .about-skills {
     width: 32rem;
-    margin-top: 12rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    margin-top: 7rem;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
   .about .about-skills .skills {
     padding: 30px;
@@ -531,6 +538,32 @@ hr {
     background-color: transparent;
     color: #db4747;
   }
+  .experience {
+    padding: 0 10rem 80px;
+  }
+  .experience .experience-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .experience .experience-card {
+    padding: 2.5rem;
+  }
+  .experience .experience-card .experience-header {
+    margin-bottom: 1.5rem;
+  }
+  .experience .experience-card .experience-title {
+    font-size: 1.75rem;
+  }
+  .experience .experience-card .experience-company {
+    font-size: 1.1rem;
+  }
+  .experience .experience-card .tech-stack {
+    gap: 0.75rem;
+  }
+  .experience .experience-card .tech-stack .tech-tag {
+    padding: 0.375rem 1rem;
+    font-size: 0.9rem;
+  }
   .chat .dot {
     left: 471px;
     top: 90px;
@@ -543,8 +576,6 @@ hr {
     padding-top: 3.7rem;
   }
   .chat .num-desk {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .chat .num-desk .hello {
@@ -563,5 +594,4 @@ hr {
     width: 523px;
     margin-bottom: 106px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
